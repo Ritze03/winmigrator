@@ -1,0 +1,18 @@
+[package]
+name = "winmigrator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+inquire = "0.6"  # For multi-select UI in terminal
+chrono = "0.4.41"
+windows = { version = "0.61", features = ["Win32_UI_Shell"] }
+colored = "2"
+walkdir = "2.4"
+dirs = "5.0"
+zip = "0.6"
+indicatif = "0.17"
+dialoguer = "0.11.0"
