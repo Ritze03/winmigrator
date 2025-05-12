@@ -19,3 +19,5 @@ WinMigrator is a lightweight and interactive CLI utility designed to make settin
 Exports are saved in structured directories, and app lists are stored as .json for easy reuse.
 
 🧰 Note: WinMigrator is intended to be run from a USB stick for easy portability between systems.
+
+🧰 If you get errors, while installing packages, try to run winmigrator.exe as a normal user (not as Administrator)
